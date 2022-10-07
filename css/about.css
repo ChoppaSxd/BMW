@@ -1,0 +1,64 @@
+/* menu style */
+nav {
+  height: 100%;
+  width: 100%;
+}
+
+/* Animathion buttons nav-link  */
+
+li > a:hover {
+  background-color: black;
+  transition: 0.4s background ease-in-out;
+  border-radius: 10px;
+}
+/* END Animathion buttons nav-link */
+
+/* animation button */
+.nav_button {
+  height: 40px;
+  width: 165px;
+  background: #9e9e9e;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  border-color: white;
+}
+
+.nav_button:hover {
+  color: white;
+  background: #212121;
+  transition: 0.5s background ease-in-out;
+}
+/* animation end */
+/* section */
+.col-3 > p {
+  padding-top: 40px;
+}
+.faceinst {
+  padding-top: 5px;
+}
+
+/* end of  */
+.mapss {
+  position: absolute;
+  width: 555px;
+  height: 332px;
+  left: 735px;
+  top: 233px;
+}
+/* end section */
+
+.border {
+  border: 10px double black; /* Параметры границы */
+  background: rgb(255, 255, 255); /* Цвет фона */
+  padding: 5px; /* Поля вокруг текста */
+  border-radius: 10px;
+}
+.login-box {
+  padding-top: 50px;
+}
+
+.btn {
+  padding-top: 100px;
+}

@@ -1,0 +1,182 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* menu style */
+
+/* Animathion buttons nav-link */
+
+li > a:hover {
+  background-color: black;
+  transition: 0.4s background ease-in-out;
+  border-radius: 10px;
+}
+/* END Animathion buttons nav-link */
+
+.nav_button {
+  height: 40px;
+  width: 165px;
+  background: #9e9e9e;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  border-color: white;
+}
+
+.nav_button:hover {
+  color: white;
+  background: #212121;
+  transition: 0.5s background ease-in-out;
+}
+/* end of menu style */
+
+/* section style */
+section {
+  margin-top: 150px;
+  font-size: 16px;
+}
+
+.toggle {
+  background: #9e9e9e;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  border-color: white;
+  padding-top: 10px;
+  /* margin: 0 0 14px; */
+  margin-left: 165px;
+  height: 47px;
+  width: 165px;
+  text-align: center;
+}
+
+.toggle:hover {
+  color: white;
+  background: #212121;
+  transition: 0.5s background ease-in-out;
+}
+
+.toggle .content {
+  text-align: left;
+  border: 1px solid #ccc;
+  color: white;
+  font-size: 15px;
+  background: rgb(0, 0, 0);
+}
+.toggle .toggler {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+div > a {
+  color: #212121;
+}
+
+div > a:hover {
+  color: #212121;
+}
+
+.car_sort {
+  font-size: 16px;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+}
+
+.car_sort > a {
+  color: #9e9e9e;
+}
+
+.car_sort a:hover {
+  color: #9e9e9e;
+}
+
+.car_sort button:hover {
+  color: #9e9e9e;
+}
+
+.all_car {
+  color: #9e9e9e;
+}
+
+.all_car:hover {
+  color: #9e9e9e;
+}
+/* cards style */
+
+.car_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 59px;
+}
+.car_cards .card {
+  border: none;
+}
+
+.img_fixed {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.car_cards button {
+  position: absolute;
+  height: 47px;
+  width: 165px;
+  margin-left: 40px;
+}
+
+.card-body > h5 {
+  color: #212121;
+  font-size: 24px;
+}
+
+.card-body > p {
+  color: #212121;
+  font-size: 18px;
+}
+
+.card-body > img {
+  padding-right: 12px;
+}
+
+.text_button {
+  padding-left: 80px;
+  color: #212121;
+  font-size: 22px;
+}
+
+.none_card {
+  display: none;
+}
+
+span > text {
+  font-size: 26px;
+  color: #9e9e9e;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+}
+/* end of cards style */
+
+/* end of section style */
+
+.car_nav_apear {
+  display: none;
+}
+.img{
+  object-fit:contain;
+}
+@media (max-width: 992px) {
+  .car_nav_diseapear {
+    display: none;
+  }
+  .car_nav_apear {
+    display: block;
+  }
+}

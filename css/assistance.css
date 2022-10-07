@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(85, 85, 85);
+  font-family: "Roboto", sans-serif;
+}
+
+.foto {
+  width: 100%;
+  height: 800px;
+  background: #fff url(../images/bg_asistans\ 2.png) no-repeat;
+  background-size: cover;
+}
+
+/* Animathion buttons nav-link */
+
+li > a:hover {
+  background-color: black;
+  transition: 0.4s background ease-in-out;
+  border-radius: 10px;
+}
+/* END Animathion buttons nav-link */
+
+.nav_button {
+  height: 40px;
+  width: 165px;
+  background: #9e9e9e;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  border-color: white;
+}
+
+.nav_button:hover {
+  color: white;
+  background: #212121;
+  transition: 0.5s background ease-in-out;
+}
+
+section {
+  color: #fff;
+}
