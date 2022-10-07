@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car info</title>
+    <!-- CSS only -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/carinfo.css" />
+  </head>
+  <body>
+     <!-- the begin of menu -->
+ <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+  <div class="container">
+    <a href="./index.html" class="navbar-brand">
+      <img src="./images/BMW_White_Logo.svg" alt="" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mr-auto ml-auto">
+        <li class="nav-item active mx-xl-4 mx-md-3">
+          <a href="./rent.html" class="nav-link" style="color: white;"
+            >Тест-драйв <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item active mx-xl-4 mx-md-3">
+          <a href="./transfers.html" class="nav-link" style="color: white;">Регістрація</a>
+        </li>
+        <li class="nav-item active mx-xl-4 mx-md-3">
+          <a href="./assistance.html" class="nav-link" style="color: white;">Асистенс</a>
+        </li>
+          <li class="nav-item dropdown mx-xl-4 mx-md-3">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="color: white;"
+            >
+              Також
+            </a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
+              style="background-color: grey;"
+            >
+            <a href="./carinfo.html" class="nav-link" style="color: white;">Інформація про авто</a>
+            <a href="./Repair.html" class="nav-link" style="color: white;">Ремонт</a>
+            <a href="./about.html" class="nav-link" style="color: white;">Контакти</a>
+            <a href="./faq.html" class="nav-link" style="color: white;">FAQ</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- end of menu -->
+    <!-- end of menu -->
+
+    <!-- the begin of the section -->
+    <section class="first_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <h1>Бестселери</h1>
+            <h2>Загальні технічні
+              <br />
+              характеристи</h2>
+              <h3>Загальні:</h3>
+            <p>
+              Регіон походження бренду: Німеччина
+              <br />
+              Класс: X - позашляховик
+              <br />
+              Тип кузову: 5 дв. позашляховик (G05)
+              <br />
+              Паливо: Дизельне топливо
+            </p>
+            <h3>Динамічні характеристи</h3>
+            <p>
+              Максимальна швидкість, км/г: 250
+              <br />
+              Час розгону до 100 км/г, с: 5,2
+            </p>
+            <h3>Трансміссія:</h3>
+            <p>
+              Тип коробки передач: Автоматичне
+              <br />
+              Число передач: 8 Тип приводу: Задній
+            </p>
+            <h3>
+              Системи активної і пасивної
+              <br />
+              безпеки:
+            </h3>
+            <p>
+              Подушка безпеки
+              <br />
+              Автоматичне замикання дверей <br />
+              при наборі швидкості
+            </p> 
+          </div>
+
+            <div class="col-7" style="padding-top: 100px;">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/x5 .1.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- the end of the section -->
+
+    <!-- the begin of the section recommend -->
+    <section class="section_recommend">
+      <div class="container">
+        <h1>Рекомендуємо</h1>
+        <div class="card-deck car_cards">
+          <div class="card">
+            <img
+              src="./images/s7.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW 730d xDrive</h5>
+              <p class="card-text">2019</p>
+              <img src="./images/Vector (4).png" alt="" />
+              <span>5 місця</span>
+              <span class="text_button"><text>99€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (5).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Паливо: Дизельне топливо<br>
+                    Максимальна швидкість, км/г: 250<br>
+                    Тип коробки передач: Автоматична<br>
+                    Число передач: 8
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (6).png" alt="" />
+              <span>3000€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/x1 .1.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW X1</h5>
+              <p class="card-text">2016</p>
+              <img src="./images/Vector (4).png" alt="" />
+              <span>5 місця</span>
+              <span class="text_button"><text>60€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (5).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Паливо: Дизельне топливо<br>
+                    Максимальна швидкість, км/г: 205<br>
+                    Тип коробки передач: Автоматична<br>
+                    Число передач: 8
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (6).png" alt="" />
+              <span>1800€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/m6.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW M6</h5>
+              <p class="card-text">2015</p>
+              <img src="./images/Vector (4).png" alt="" />
+              <span>2 місця</span>
+              <span class="text_button"><text>80€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (5).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Паливо: Бензинове топливо<br>
+                    Максимальна швидкість, км/г: 250<br>
+                    Тип коробки передач: Автоматична<br>
+                    Число передач: 7
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (6).png" alt="" />
+              <span>2400€</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  the end of the section recommend -->
+
+
+    <footer style="padding-top: 150px;">
+      <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./images/BMW_White_Logo.svg" height="100px" alt=""
+          /></a>
+          <div class="row" style="padding-right: 350px; color: #fff; padding-top: 20px;">
+            <div class="col-6">
+              <h3 style="font-size: 22px;">Наші контакти</h3>
+              <p style="padding-top: 10px;">+38 098 777 16 00</p>
+              <p>bmwlviv@gmail.com</p>
+              <p>Lviv</p>
+              <p>Тест драйви авто</p>
+              <a href="https://www.facebook.com/BMW/" target="blank"><img src="./images/Group 189.png" alt=""></a>
+              <a href="https://www.instagram.com/bmw/" target="blank"><img src="./images/Group 187.png" alt=""></a>
+            </div>
+            <div class="col-6">
+              <h3 style="font-size: 22px;">Графік роботи</h3>
+              <p style="padding-top: 10px;">понеділок-субота</p>
+              <p>з 8:00 до 20:00</p>
+              <p>неділя</p>
+              <p>За запитом</p>
+              <a href="https://www.google.com/intl/ru/gmail/about/" target="blank"><img src="./images/gg_mail.png" alt=""></a>
+              <a href="https://www.youtube.com/user/BMW" target="blank"><img src="./images/Vector1111.png" height="18" width="23" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/rent.js"></script>
+  </body>
+</html>

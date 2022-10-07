@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rent</title>
+  <!-- CSS only -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/rent.css" />
+</head>
+
+<body>
+  <!-- the begin of menu -->
+  <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+    <div class="container">
+      <a href="./index.html" class="navbar-brand">
+        <img src="./images/BMW_White_Logo.svg" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item active mx-xl-4 mx-md-3">
+            <a href="./rent.html" class="nav-link" style="color: white;">Тест-драйв <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active mx-xl-4 mx-md-3">
+            <a href="./transfers.html" class="nav-link" style="color: white;">Регістрація</a>
+          </li>
+          <li class="nav-item active mx-xl-4 mx-md-3">
+            <a href="./assistance.html" class="nav-link" style="color: white;">Асистенс</a>
+          </li>
+          <li class="nav-item dropdown mx-xl-4 mx-md-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+              Також
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: grey;">
+              <a href="./carinfo.html" class="nav-link" style="color: white;">Інформація про авто</a>
+              <a href="./Repair.html" class="nav-link" style="color: white;">Ремонт</a>
+              <a href="./about.html" class="nav-link" style="color: white;">Контакти</a>
+              <a href="./faq.html" class="nav-link" style="color: white;">FAQ</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end of menu -->
+
+  <section class="container">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-modal">
+      Launch demo modal
+    </button>
+  </section>
+
+  <!-- the begin of the section -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>
+          <h1>Всі автомобілі</h1>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- the begin of the cards -->
+    <div class="container">
+      <div class="card-deck car_cards">
+        <!-- <div class="card">
+            <img
+              src="./images/x5 .1.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW X5</h5>
+              <p class="card-text">2018</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>4 місця</span>
+              <span class="text_button"><text>90€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 400 л.с
+                    Об’єм мотора 3.0л
+                    Коробка 8АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt=""/>
+              <span>2700€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/x1 .1.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW X1</h5>
+              <p class="card-text">2016</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>4 місця</span>
+              <span class="text_button"><text>60€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 150 л.с
+                    Об’єм мотора 2.0л
+                    Коробка 8АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>1800€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/bmw f30.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW F30 320i</h5>
+              <p class="card-text">2016</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>5 місця</span>
+              <span class="text_button"><text>60€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 184 л.с
+                    Об’єм мотора 2.0л
+                    Коробка 8АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>1800€</span>
+            </div>
+          </div> -->
+      </div>
+
+
+
+      <!-- <div class="card-deck car_cards" style="padding-top: 51px;">
+          <div class="card">
+            <img
+              src="./images/fixed.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW(G30)520d</h5>
+              <p class="card-text">2018</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>4 місця</span>
+              <span class="text_button"><text>90€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 184 л.с
+                    Об’єм мотора 2.0л
+                    Коробка 8АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>2700€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/x3.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW X3</h5>
+              <p class="card-text">2017</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>4 місця</span>
+              <span class="text_button"><text>70€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 150 л.с
+                    Об’єм мотора 2.0л
+                    Коробка 6АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>2100€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/m2.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW M2</h5>
+              <p class="card-text">2015</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>2 місця</span>
+              <span class="text_button"><text>99€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 370 л.с
+                    Об’єм мотора 3.0л
+                    Коробка 7АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>3000€</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card-deck car_cards" style="padding-top: 51px;">
+          <div class="card">
+            <img
+              src="./images/m4.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW M4</h5>
+              <p class="card-text">2013</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>2 місця</span>
+              <span class="text_button"><text>99€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 431 л.с
+                    Об’єм мотора 3.0л
+                    Коробка 7АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>3000€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/m6.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW M6</h5>
+              <p class="card-text">2015</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>4 місця</span>
+              <span class="text_button"><text>80€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 560 л.с
+                    Об’єм мотора 4.4л
+                    Коробка 7АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>2400€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/s7.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW 730d xDrive</h5>
+              <p class="card-text">2019</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>5 місця</span>
+              <span class="text_button"><text>99€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Потужність 249 л.с
+                    Об’єм мотора 3.0л
+                    Коробка 8АКПП
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>3000€</span>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card-deck car_cards none_card" style="padding-top: 51px;" id="addElement">
+          <div class="card">
+            <img
+              src="./images/bmw g30.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW S SERIES </h5>
+              <p class="card-text">2018</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>4 місця</span>
+              <span class="text_button"><text>90€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet consecteturisi. Incidunrnatur similique, pariatur, fuga repellendus.
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>1000€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/x1 .1.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW X3 xDrive</h5>
+              <p class="card-text">2016</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>4 місця</span>
+              <span class="text_button"><text>40€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet consecteturisi. Incidunrnatur similique, pariatur, fuga repellendus.
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>500€</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/m2.png"
+              class="card-img-top img_fixed"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMW M2 xDrive</h5>
+              <p class="card-text">2016</p>
+              <img src="./images/Vector.png" alt="" />
+              <span>5 місця</span>
+              <span class="text_button"><text>40€</text> / в день</span>
+              <br />
+              <img src="./images/Vector (1).png" alt="" />
+              <span
+                >Кондиціонер
+                <div class="toggle" style="position: absolute;">
+                  <a class="toggler" href="#">Детальніше</a>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet consecteturisi. Incidunrnatur similique, pariatur, fuga repellendus.
+                  </div>
+                </div></span
+              >
+              <br />
+              <img src="./images/Vector (2).png" alt="" />
+              <span>500€</span>
+            </div>
+          </div>
+        </div> -->
+
+      <div class="row" style="padding-top: 101px;">
+        <div class="col-2">
+          <div class="more_button mt-4 mb-4">
+            <input type="button" value="Показати ще" name="addElement" OnClick="addElement();">
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="mt-4 mb-4">
+            <input type="button" value="Сховати" name="resetElement" OnClick="resetElement();">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of cards -->
+  <!-- the end of the section -->
+
+  <footer>
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><img src="./images/BMW_White_Logo.svg" height="100px" alt="" /></a>
+        <div class="row" style="padding-right: 350px; color: #fff; padding-top: 20px;">
+          <div class="col-6">
+            <h3 style="font-size: 22px;">Наші контакти</h3>
+            <p style="padding-top: 10px;">+38 098 777 16 00</p>
+            <p>bmwlviv@gmail.com</p>
+            <p>Lviv</p>
+            <p>Тест-драйв авто</p>
+            <a href="https://www.facebook.com/BMW/" target="blank"><img src="./images/Group 189.png" alt=""></a>
+            <a href="https://www.instagram.com/bmw/" target="blank"><img src="./images/Group 187.png" alt=""></a>
+          </div>
+          <div class="col-6">
+            <h3 style="font-size: 22px;">Графік роботи</h3>
+            <p style="padding-top: 10px;">понеділок-субота</p>
+            <p>з 8:00 до 20:00</p>
+            <p>неділя</p>
+            <p>За запитом</p>
+            <a href="https://www.google.com/intl/ru/gmail/about/" target="blank"><img src="./images/gg_mail.png"
+                alt=""></a>
+            <a href="https://www.youtube.com/user/BMW" target="blank"><img src="./images/Vector1111.png" height="18"
+                width="23" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </footer>
+
+
+  <!-- Modal -->
+<div class="modal fade add-car-modal" id="exampleModal" tabindex="-1" data-bs-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn btn-close-modal" data-bs-dismiss="modal" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="formNeeded" class="d-flex flex-column gap-4 needs-validation" novalidate>
+          <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input name="title" type="text" class="form-control" id="title" required>
+            <div class="invalid-feedback">
+              Title is Needed!
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input name="image" type="text" class="form-control" id="image" required>
+            <div class="invalid-feedback">
+             Image is Needed!
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-close-modal" data-bs-dismiss="modal">Close</button>
+        <button class="btn btn-primary" form="formNeeded" type="submit">Submit form</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/rent.js"></script>
+</body>
+
+</html>

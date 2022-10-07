@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bmw</title>
+    <!-- CSS only -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+
+  <body>
+    <!-- the begin of menu -->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand">
+          <img src="./images/BMW_White_Logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mr-auto ml-auto">
+            <li class="nav-item active mx-xl-4 mx-md-3">
+              <a href="./rent.html" class="nav-link" style="color: white"
+                >Тест-драйв <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active mx-xl-4 mx-md-3">
+              <a href="./transfers.html" class="nav-link" style="color: white"
+                >Регістрація</a
+              >
+            </li>
+            <li class="nav-item active mx-xl-4 mx-md-3">
+              <a href="./assistance.html" class="nav-link" style="color: white"
+                >Асистенс</a
+              >
+            </li>
+            <li class="nav-item dropdown mx-xl-4 mx-md-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style="color: white"
+              >
+                Також
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+                style="background-color: grey"
+              >
+                <a href="./carinfo.html" class="nav-link" style="color: white"
+                  >Інформація про авто</a
+                >
+                <a href="./Repair.html" class="nav-link" style="color: white"
+                  >Ремонт</a
+                >
+                <a href="./about.html" class="nav-link" style="color: white"
+                  >Контакти</a
+                >
+                <a href="./faq.html" class="nav-link" style="color: white"
+                  >FAQ</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of menu -->
+
+    <!-- the begin of the header -->
+    <header>
+      <div class="hero_slider_background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col d-lg-block d-flex align-items-center flex-column">
+            <h1 class="hero_heading">
+              Тест драйв нових авто<br /><span>у Львові</span>
+            </h1>
+
+            <button class="main_button">
+              <a href="./rent.html" style="color: #fff; text-decoration: none"
+                >Орендувати</a
+              >
+            </button>
+          </div>
+
+          <!-- slider must be in absolute!! -->
+        </div>
+      </div>
+
+      <div class="slider_hero_absolute">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="hero_slider_box">
+                <img src="./images/x1 .1.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="hero_slider_box">
+                <img src="./images/x5 .1.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="hero_slider_box">
+                <img src="./images/pngwing 1.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+
+          <!-- If we need scrollbar -->
+        </div>
+      </div>
+
+      <div class="hero_social">
+        <a
+          href="https://www.facebook.com/BMW/"
+          target="blank"
+          class="social_icon"
+        >
+          <img src="./images/Vector.svg" alt="" />
+        </a>
+        <a
+          href="https://www.instagram.com/bmw/"
+          target="blank"
+          class="social_icon"
+        >
+          <img src="./images/bx_bxl-instagram.svg" alt="" />
+        </a>
+        <a
+          href="https://www.google.com/intl/ru/gmail/about/"
+          target="blank"
+          class="social_icon"
+        >
+          <img src="./images/Vector (1).svg" alt="" />
+        </a>
+      </div>
+    </header>
+    <!-- the end of the header -->
+
+    <!-- the news section -->
+
+    <section class="section_news">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Новини</h2>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col">
+            <div class="card card_relative">
+              <div class="img_responsive_container news_card_img">
+                <img src="./images/Rectangle 3.png" alt="..." />
+              </div>
+              <div class="card_content_box">
+                <p class="card_content">
+                  Оренда авто<br /><span>Для юридичних лиць</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card_relative">
+              <div class="img_responsive_container news_card_img">
+                <img src="./images/Rectangle 4.png" alt="..." />
+              </div>
+              <div class="card_content_box">
+                <p class="card_content">
+                  Тест-драйв авто<br /><span>З водієм</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card_relative">
+              <div class="img_responsive_container news_card_img">
+                <img src="./images/Rectangle 5.png" alt="..." />
+              </div>
+              <div class="card_content_box">
+                <p class="card_content">
+                  Новинки<br /><span>Новий асортимент</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of the news section -->
+    <!--the begin of how it works section   -->
+    <section class="how_it_works">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 id="how_it_works_title">Як це працює?</h3>
+            <h2>Орендувати авто легше ніж ви думаєте</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1 news_col_empty"></div>
+          <div class="col-lg col-md-12">
+            <div class="icon_box">
+              <img class="icon_absolute" src="./images/location.png" alt="" />
+            </div>
+            <div class="icon_description icon_description_left">
+              <h3>Оберіть локацію</h3>
+              <p>
+                Вкажіть зручне для вас<br />
+                місце розташування
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-2 col_line">
+            <div class="line_position_first">
+              <img src="./images/Line 3.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg col-md-12">
+            <div class="icon_box">
+              <img class="icon_absolute" src="./images/post.png" alt="" />
+            </div>
+            <div class="icon_description icon_description_center">
+              <h3>Оберіть дату</h3>
+              <p>
+                Визначте зручний для вас<br />
+                час для отримання авто
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-2 col_line">
+            <div class="line_position_last">
+              <img src="./images/Line 2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg col-md-12">
+            <div class="icon_box">
+              <img class="icon_absolute" src="./images/car.png" alt="" />
+            </div>
+            <div class="icon_description icon_description_right">
+              <h3>Бронюйте своє авто</h3>
+              <p>
+                Залишились обрати<br />
+                автомобіль який ви<br />
+                отримаєте
+              </p>
+            </div>
+          </div>
+          <div class="col-1 news_col_empty"></div>
+        </div>
+      </div>
+    </section>
+    <!-- the end of how it works section -->
+
+    <!-- the program loyalnosti -->
+    <section class="program_loyal">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <img src="./images/x1 .1.png" alt="" />
+          </div>
+          <div class="col">
+            <h2>Програма лояльності</h2>
+            <div class="info_line justify-content-start">
+              <div class="icon_cirle">
+                <img class="icon_absolute" src="./images/1.5.png" alt="" />
+              </div>
+              <p>
+                Орендуй на довгий термін, та отримуй за кожні 10 днів <br />
+                прокату по 5% знижки на наступну оренду ( *знижка
+                накопичувальна)
+              </p>
+            </div>
+            <div class="info_line justify-content-start">
+              <div class="icon_cirle">
+                <img class="icon_absolute" src="./images/1.2.png" alt="" />
+              </div>
+              <p>
+                Залиш відгук з фотографією про компанію BMW на<br />
+                нашій сторінці в Instagram або на Google Maps <br />
+                та отримай додатково 5% знижки на наступний тест-драйв
+              </p>
+            </div>
+            <div class="info_line justify-content-start">
+              <div class="icon_cirle">
+                <img class="icon_absolute" src="./images/1.1.png" alt="" />
+              </div>
+              <p>
+                Приведи друга та отримай додаткову знижку 5% для <br />
+                себе та 5% для товариша
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second_loyal">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col ml-3">
+            <div class="info_line justify-content-start">
+              <div class="icon_cirle">
+                <img class="icon_absolute" src="./images/Clients.png" alt="" />
+              </div>
+              <p class="absolute">
+                Для постійних клієнтів компанії BMW діють спеціальні <br />
+                умови лояльності.
+              </p>
+            </div>
+            <div class="info_line justify-content-start">
+              <div class="icon_cirle">
+                <img class="icon_absolute" src="./images/hotels.png" alt="" />
+              </div>
+              <p>
+                При оренді автомобіля, клієнти компанї отримають <br />
+                знижки на проживання в ряді готелей (перелік <br />
+                готелів-партнерів уточнюйте в менеджера)
+              </p>
+            </div>
+            <div class="info_line justify-content-start">
+              <div class="icon_cirle">
+                <img class="icon_absolute" src="./images/zniska.png" alt="" />
+              </div>
+              <p class="abs1">Максимально сумарна знижка 30%</p>
+            </div>
+            <button class="main_button">
+              <a href="./rent.html" style="color: #fff; text-decoration: none"
+                >Орендувати</a
+              >
+            </button>
+          </div>
+          <div class="col">
+            <img src="./images/x5 .1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of program of loyalnosti -->
+    <!-- the slider section -->
+    <section class="slider_section">
+      <div class="container">
+        <h2>Партнери компанії</h2>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/cisco.png"
+                class="d-block w-30 mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/axa.png"
+                class="d-block w-30 mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/karcher.png"
+                class="d-block w-30 mx-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end of slider section -->
+
+    <footer>
+      <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./images/BMW_White_Logo.svg" height="100px" alt=""
+          /></a>
+          <div
+            class="row"
+            style="padding-right: 350px; color: #fff; padding-top: 20px"
+          >
+            <div class="col-6">
+              <h3 style="font-size: 22px">Наші контакти</h3>
+              <p style="padding-top: 10px">+38 098 777 16 00</p>
+              <p>bmwlviv@gmail.com</p>
+              <p>Lviv</p>
+              <p>Тест драйви авто</p>
+              <a href="https://www.facebook.com/BMW/" target="blank"
+                ><img src="./images/Group 189.png" alt=""
+              /></a>
+              <a href="https://www.instagram.com/bmw/" target="blank"
+                ><img src="./images/Group 187.png" alt=""
+              /></a>
+            </div>
+            <div class="col-6">
+              <h3 style="font-size: 22px">Графік роботи</h3>
+              <p style="padding-top: 10px">понеділок-субота</p>
+              <p>з 8:00 до 20:00</p>
+              <p>неділя</p>
+              <p>За запитом</p>
+              <a
+                href="https://www.google.com/intl/ru/gmail/about/"
+                target="blank"
+                ><img src="./images/gg_mail.png" alt=""
+              /></a>
+              <a href="https://www.youtube.com/user/BMW" target="blank"
+                ><img
+                  src="./images/Vector1111.png"
+                  height="18"
+                  width="23"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/slick-main.js"></script>
+  </body>
+</html>
